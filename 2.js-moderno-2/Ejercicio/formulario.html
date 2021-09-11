@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio en el DOM</title>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- 
+	formulario con los campos:nombre, apellidos ,edad 
+	2.boton de enviar submit 
+	3.mostrar los datos en pantalla con un segundo boton
+	 -->
+	<h1>Ejercicio html</h1>
+	<section>
+		<form action="#" method="POST" id="formulario" omsubmit="return false;">
+			<label >
+				Nombre:
+				<input type="text" name="nombre" id="nombre">
+				<br>
+				<span id="error"></span>
+			</label>
+			<br>
+			<label >
+				Apellidos:
+				<input type="text" name="apellido" id="apellido">
+			</label>
+			<br>
+			<label>
+				Edad:
+				<input type="text" name="edad" id="edad">
+			</label>
+			<br>
+			<input type="submit" value="Enviar" id="submit">
+		</form>
+
+	</section>
+
+	<section class="box">
+
+		<!-- pasos de 3 forma -->
+		<p id="p_nombre">
+			Nombre:
+				<span>
+				</span>
+		</p>
+		<p id="p_apellido">
+			apellidos:
+				<span>
+				</span>
+		</p>
+		<p id="p_edad">
+			edad:
+				<span>
+				</span>
+		</p>
+	
+		
+	</section>
+</body>
+</html>

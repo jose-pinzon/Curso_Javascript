@@ -1,0 +1,32 @@
+section{
+	/*border: 1px solid black;*/
+	padding: 10px;
+	height: 250px;
+	width: 250px;
+	background-color: #ccc;
+	float: left;
+
+}
+label{
+	margin: 20px;
+	padding: 10px;
+}
+label span{
+	color: red;
+}
+
+label input{
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#submit{
+	background-color: green;
+	color: white;
+	margin-left: 40px;
+}
+
+.box{
+	margin-left: 20px;
+	border: 1px dashed black;
+}
