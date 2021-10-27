@@ -17,7 +17,7 @@
 //Ingreso de datos - estos son para poder poner informacion y poder guardarlos , todos los datos que se ingresen en este seran string si queremos que sean
 // enteros entonces podermos usar parseint ,parseFloat , Number
 
-var valor = prompt('¿que edad tienes ?' , 18)//el 18 es el valor por defecto que se guardara si no se cambia
+var valor1 = prompt('¿que edad tienes ?' , 18)//el 18 es el valor por defecto que se guardara si no se cambia
 
-let valor2 = parseInt(valor)
+let valor2 = parseInt(valor1)
 console.log(typeof valor2)
